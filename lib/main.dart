@@ -15,7 +15,7 @@ void main() async {
   await Hive.openBox<TaskModel>(kNoteBox);
   Bloc.observer = SimpleBlocObserver();
 
-  runApp(DevicePreview(enabled: true, builder: (context) => const MtodoApp()));
+  runApp(DevicePreview(enabled: false, builder: (context) => const MtodoApp()));
 }
 
 class MtodoApp extends StatelessWidget {
