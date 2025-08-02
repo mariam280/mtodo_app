@@ -1,16 +1,26 @@
-# mtodo_app
+# MTodo App
 
-A new Flutter project.
+A simple task management mobile application that allows users to add, edit, delete, and mark tasks as completed.
 
-## Getting Started
+The app stores data locally using **Hive**, enabling users to manage their tasks even offline.  
+It follows the **MVVM pattern** and uses **BLoC** for organized state management.
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Add, edit, delete, and complete tasks
+- Local data storage using Hive
+- Offline support
+- MVVM architecture
+- BLoC for state management
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Hive (Local Storage)
+- BLoC
+- MVVM Pattern
+- Dart
+
+## 🔗 Project Link
+
+[GitHub Repository](https://github.com/mariam280/mtodo_app)
